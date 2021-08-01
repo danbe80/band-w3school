@@ -1,0 +1,53 @@
+html body {
+	width: 2000px;
+	height: 10000px;  /* 페이지 보기 편하게 잡은거 완성 후 지움 */
+	font-size: 16px;
+	color: #fff;
+}
+
+/* header-wrapper */
+.header-wrapper {
+	background-color: #111;
+	color: #fff;
+	width: 100%;
+	position: fixed;
+}
+.header-wrapper .navi-wrap {
+	float: left;
+}
+.header-wrapper .navi-wrap .navi {
+	float: left;
+	position: relative;
+}
+.header-wrapper .navi-wrap .navi > a {
+	padding: 1em 1.25em;
+	height: 50px;
+}
+.header-wrapper .navi-wrap .navi a .down {
+	padding-left: .325em;
+}
+.header-wrapper .navi-wrap .navi a:hover{
+	background-color: beige;
+	color: #333;
+}
+.header-wrapper .navi-wrap .navi .navi-menu {
+	position: absolute;
+	background-color: #fff;
+	color: #333;
+	top: 50px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+	display: none;
+}
+.header-wrapper .navi-wrap .navi .navi-menu .menu > a{
+	padding: .875em 1.25em;
+	display: block;
+}
+.header-wrapper .search {
+	float: right;
+}
+.header-wrapper .search i {
+	padding: 17px 16px;
+}
+.header-wrapper .search i:hover {
+	background-color: salmon;
+}
