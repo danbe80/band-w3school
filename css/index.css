@@ -26,9 +26,15 @@ html body {
 .header-wrapper .navi-wrap .navi a .down {
 	padding-left: .325em;
 }
-.header-wrapper .navi-wrap .navi a:hover{
+.header-wrapper .navi-wrap .navi:hover{
 	background-color: beige;
 	color: #333;
+}
+.header-wrapper .navi-wrap .navi.active > .navi-menu{
+	display: block;
+}
+.header-wrapper .navi-wrap .navi:hover .navi-menu {
+	display: block;
 }
 .header-wrapper .navi-wrap .navi .navi-menu {
 	position: absolute;
@@ -41,6 +47,9 @@ html body {
 .header-wrapper .navi-wrap .navi .navi-menu .menu > a{
 	padding: .875em 1.25em;
 	display: block;
+}
+.header-wrapper .navi-wrap .navi .navi-menu .menu:hover {
+	background-color: #ccc;
 }
 .header-wrapper .search {
 	float: right;
