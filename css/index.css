@@ -1,24 +1,25 @@
 html body {
-	width: 1600px;
 	height: 10000px;  /* 페이지 보기 편하게 잡은거 완성 후 지움 */
+	margin: 0;
 	font-size: 16px;
 	color: #fff;
 }
 
 /* header-wrapper */
 .header-wrapper {
+	width: 100%;
 	background-color: #111;
 	color: #fff;
-	width: 100%;
 	position: fixed;
-	z-index: 999;
+	z-index: 9999;
 }
 .header-wrapper .navi-wrap {
 	float: left;
+	position: relative;
 }
 .header-wrapper .navi-wrap .navi {
 	float: left;
-	position: relative;
+
 }
 .header-wrapper .navi-wrap .navi > a {
 	padding: 1em 1.25em;
@@ -64,5 +65,32 @@ html body {
 
 /* main-wrapper */
 .main-wrapper {
-	
+	position: relative;
+	padding-top: 50px;
+	height: 100vh;
+}
+.main-wrapper .img-wrapper{
+
+}
+.main-wrapper .img-wrapper .img-wrap{
+
+}
+.main-wrapper .img-wrapper .img-wrap img {
+	width: 100%;
+	position: absolute;
+	top: 50px;
+}
+.main-wrapper .img-wrap .content-wrap {
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	text-align: center;
+	bottom: 0;
+}
+.main-wrapper .img-wrap .content-wrap .country {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+.main-wrapper .img-wrap .content-wrap .content {
+	letter-spacing: -1px;
 }
