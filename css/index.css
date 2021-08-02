@@ -1,5 +1,5 @@
 html body {
-	width: 2000px;
+	width: 1600px;
 	height: 10000px;  /* 페이지 보기 편하게 잡은거 완성 후 지움 */
 	font-size: 16px;
 	color: #fff;
@@ -11,6 +11,7 @@ html body {
 	color: #fff;
 	width: 100%;
 	position: fixed;
+	z-index: 999;
 }
 .header-wrapper .navi-wrap {
 	float: left;
@@ -59,4 +60,9 @@ html body {
 }
 .header-wrapper .search i:hover {
 	background-color: salmon;
+}
+
+/* main-wrapper */
+.main-wrapper {
+	
 }
