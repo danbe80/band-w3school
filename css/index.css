@@ -73,7 +73,11 @@ html body {
 
 }
 .main-wrapper .img-wrapper .img-wrap{
-
+	opacity: 0;
+	transition: all .35s;
+}
+.main-wrapper .img-wrapper .img-wrap:first-child{
+	opacity: 1;
 }
 .main-wrapper .img-wrapper .img-wrap img {
 	width: 100%;
