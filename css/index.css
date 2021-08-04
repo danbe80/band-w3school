@@ -2,7 +2,7 @@ html body {
 	height: 10000px;  /* 페이지 보기 편하게 잡은거 완성 후 지움 */
 	margin: 0;
 	font-size: 16px;
-	color: #fff;
+	color: #111;
 }
 
 /* header-wrapper */
@@ -22,8 +22,7 @@ html body {
 
 }
 .header-wrapper .navi-wrap .navi > a {
-	padding: 1em 1.25em;
-	height: 50px;
+	padding: 17px 1.25em;
 }
 .header-wrapper .navi-wrap .navi a .down {
 	padding-left: .325em;
@@ -65,11 +64,13 @@ html body {
 
 /* main-wrapper */
 .main-wrapper {
+	color: #fff;
+	padding-bottom: 7em;
+}
+.main-wrapper .img-wrapper{
 	position: relative;
 	padding-top: 50px;
 	height: 100vh;
-}
-.main-wrapper .img-wrapper{
 
 }
 .main-wrapper .img-wrapper .img-wrap{
