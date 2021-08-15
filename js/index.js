@@ -22,7 +22,7 @@ function onLeave(){  navimeun[0].style.display = "none";}
 */
 
 var index = 0;
-const slides = document.getElementsByClassName('img-wrap');
+const slides = document.getElementsByClassName('img');
 
 setInterval(function(){
 	for(let i = 0; i < slides.length; i++){

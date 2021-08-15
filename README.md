@@ -62,4 +62,15 @@ setInterval(function(){
 
 ```
 
-swiper를 사용하려다가 직접 javascript로 fade slide를 구현해보았다.
+```css
+	.main-wrapper .img-wrap .img {
+		position: absolute;
+		transition: all .5s;
+	}
+```
+
+swiper를 사용하려다가 직접 javascript로 짜보는 것도 좋을거 같아서 slide를 구현해보았다. <br>
+css에 transition을 주어 부드럽게 fade로 넘어가는 것을 표현
+
+* 문제점 : main 이미지들을 띄우면서 높이가 0이 되는 현상이 발생
+  - height이 0이 되는 이유는 position: absolute로 자식 div를 띄우면서 기준점을 잡은 부모의 높이가 0이 되는 것이다. => 해결방법으론 부모한테 높이를 설정해주었다.
