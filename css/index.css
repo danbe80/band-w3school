@@ -14,7 +14,11 @@ html body {
 	margin: auto;
 	padding: 3em 0;
 }
-
+.wrapper h3.title {
+	font-size: 2em;
+	letter-spacing: 5px;
+	padding-bottom: 1em 0;
+}
 /* header-wrapper */
 .header-wrapper {
 	position: fixed;
@@ -97,7 +101,7 @@ html body {
 	padding-top: 48px;
 	position: relative;
 	color: #f9f9f9;
-	height: 900px;
+	height: 55vw;
 }
 .main-wrapper .img-wrapper {
 	position: absolute;
@@ -136,11 +140,6 @@ html body {
 .band-wrapper .band-wrap .title-wrap{
 	padding: 2em 0;
 }
-.band-wrapper .band-wrap .title-wrap .title {
-	font-size: 2em;
-	letter-spacing: 5px;
-	padding-bottom: 1em;
-}
 .band-wrapper .band-wrap .title-wrap .center-text {
 	padding-bottom: 1.5em;
 	color: #888;
@@ -168,4 +167,96 @@ html body {
 .band-wrapper .band-wrap .profile-wrap .profile .profile-photo > img{
 	border-radius: 10px;
 	width: 100%;
+}
+
+/* tour-wrapper */
+.tour-wrapper {
+	background-color: #121212;
+	color: #f9f9f9;
+	padding-bottom: 3em;
+}
+.tour-wrapper .tour-wrap .title-wrapper .title-wrap {
+	text-align: center;
+}
+.tour-wrapper .tour-wrap .title-wrapper .title-wrap .title-comment {
+	padding: 1.5em 0;
+	font-style: italic;
+	color: #ccc;
+}
+.tour-wrapper .tour-wrap .date-wrapper {
+	width: 100%;
+	background-color: #f9f9f9;
+	color: #999;
+	margin: 2em 0;
+}
+.tour-wrapper .tour-wrap .date-wrapper .date-wrap {
+	padding: 1em;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	align-items: center;
+}
+.tour-wrapper .tour-wrap .date-wrapper .date-wrap .date {
+	font-size: 1.25em;
+}
+.tour-wrapper .tour-wrap .date-wrapper .date-wrap .sold {
+	margin-left: 1em;
+	padding: .5em 1em;
+	background-color: red;
+	color: #f9f9f9;
+	font-weight: bold;
+}
+.tour-wrapper .tour-wrap .date-wrapper .date-wrap:last-child {
+	justify-content: space-between;
+}
+.tour-wrapper .tour-wrap .date-wrapper .date-wrap .sell {
+	background-color: #121212;
+	font-size: 1.25em;
+	color: #f9f9f9;
+	padding: .325em .5em;
+	border-radius: 50%;
+}
+.tour-wrapper .tour-wrap .ticket-wrapper {
+	display: flex;
+}
+.tour-wrapper .tour-wrap .ticket-wrapper .ticket-wrap {
+	width: 33.3333%;
+}
+.tour-wrapper .tour-wrap .ticket-wrapper .ticket-wrap:not(:last-child) {
+	margin-right: 1em;
+}
+.tour-wrapper .tour-wrap .ticket-wrapper .ticket-wrap  img{
+	width: 100%;
+}
+.tour-wrapper .tour-wrap .ticket-wrapper .ticket-wrap  img:hover {
+	opacity: .5;
+	transition: all .5s;
+}
+.tour-wrapper .tour-wrap .ticket-wrapper .ticket-wrap .ticket-info {
+	background-color: #f9f9f9;
+	color: #121212;
+
+}
+.tour-wrapper .tour-wrap .ticket-wrapper .ticket-wrap .ticket-info > * {
+	padding: 1em;
+}
+.tour-wrapper .tour-wrap .ticket-wrapper .ticket-wrap .ticket-info .city{
+	font-weight: bold;
+}
+.tour-wrapper .tour-wrap .ticket-wrapper .ticket-wrap .ticket-info .ticket-date{
+	color: #999;
+}
+.tour-wrapper .tour-wrap .ticket-wrapper .ticket-wrap .ticket-info .ticket-content{
+	line-height: 1.5;
+}
+.tour-wrapper .tour-wrap .ticket-wrapper .ticket-wrap .ticket-info .buy{
+	text-align: center;
+	padding: .875em 1em;
+	background-color: #121212;
+	color: #f9f9f9;
+	margin: 0 0 1em 1em;
+}
+.tour-wrapper .tour-wrap .ticket-wrapper .ticket-wrap .ticket-info .buy:hover {
+	background-color: #ccc;
+	color: #121212;
+	transition: all .3s;
 }
