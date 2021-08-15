@@ -77,3 +77,6 @@ css에 transition을 주어 부드럽게 fade로 넘어가는 것을 표현
 	<hr>
 * float도 absolute랑 같은 현상이 일어난다. <br>
 	float에 높이를 잡아주기 위해서는 clearfix 클래스를 float를 적용시킨 부모한테 넣어주면 된다. 또한 부모 css에 overflow: hidden 을 주어도 해결된다. (이 방법은 absolute에선 해결되지 않는다.)
+
+## Tour 페이지
+display: flex 사용
