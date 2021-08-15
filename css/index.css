@@ -12,6 +12,7 @@ html body {
 .wrapper {
 	width: 800px;
 	margin: auto;
+	padding: 3em 0;
 }
 
 /* header-wrapper */
@@ -127,20 +128,44 @@ html body {
 
 /* band-wrapper */
 .band-wrapper {
-
+	font-size: 1em;
 }
 .band-wrapper .band-wrap{
 	text-align: center;
 }
-.band-wrap .profile-wrap {
-	float: left;
-	margin: 0 3%;
+.band-wrapper .band-wrap .title-wrap{
+	padding: 2em 0;
 }
-.band-wrap .profile-wrap .profile {
+.band-wrapper .band-wrap .title-wrap .title {
+	font-size: 2em;
+	letter-spacing: 5px;
+	padding-bottom: 1em;
+}
+.band-wrapper .band-wrap .title-wrap .center-text {
+	padding-bottom: 1.5em;
+	color: #888;
+	font-style: italic;
+}
+.band-wrapper .band-wrap .title-wrap .comment {
+	line-height: 1.5;
+	font-size: 1.125em;
+	text-align: justify;
+	letter-spacing: -1px;
+}
+.band-wrapper .band-wrap .profile-wrap {
+	float: left;
+	font-size: 1.5em;
+}
+.band-wrapper .band-wrap .profile-wrap .profile {
 	float: left;
 	width: 33.3333%;
-	padding: 6%;
+	padding: 2em;
 }
-.band-wrap .profile-wrap .profile .profile-photo img {
+.band-wrapper .band-wrap .profile-wrap .profile .name{
+	font-size: .75em;
+	padding: 1em 0;
+}
+.band-wrapper .band-wrap .profile-wrap .profile .profile-photo > img{
+	border-radius: 10px;
 	width: 100%;
 }
