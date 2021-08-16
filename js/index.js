@@ -31,4 +31,3 @@ setInterval(function(){
 	index = (index != slides.length - 1) ? index + 1 : 0;
 	slides[index].style.opacity = 1;
 }, 3000);
-

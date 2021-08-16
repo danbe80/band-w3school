@@ -14,10 +14,18 @@ html body {
 	margin: auto;
 	padding: 3em 0;
 }
+.wrapper .title-wrap {
+	text-align: center;
+}
 .wrapper h3.title {
 	font-size: 2em;
 	letter-spacing: 5px;
 	padding-bottom: 1em 0;
+}
+.wrapper p.title-comment {
+	padding: 1.5em;
+	color: #888;
+	font-style: italic;
 }
 /* header-wrapper */
 .header-wrapper {
@@ -137,15 +145,7 @@ html body {
 .band-wrapper .band-wrap{
 	text-align: center;
 }
-.band-wrapper .band-wrap .title-wrap{
-	padding: 2em 0;
-}
-.band-wrapper .band-wrap .title-wrap .center-text {
-	padding-bottom: 1.5em;
-	color: #888;
-	font-style: italic;
-}
-.band-wrapper .band-wrap .title-wrap .comment {
+.band-wrapper .band-wrap .comment {
 	line-height: 1.5;
 	font-size: 1.125em;
 	text-align: justify;
@@ -174,9 +174,6 @@ html body {
 	background-color: #121212;
 	color: #f9f9f9;
 	padding-bottom: 3em;
-}
-.tour-wrapper .tour-wrap .title-wrapper .title-wrap {
-	text-align: center;
 }
 .tour-wrapper .tour-wrap .title-wrapper .title-wrap .title-comment {
 	padding: 1.5em 0;
@@ -259,4 +256,62 @@ html body {
 	background-color: #ccc;
 	color: #121212;
 	transition: all .3s;
+}
+
+/* contact-wrapper */
+.contact-wrapper .contact-wrap .form-wrapper {
+	padding: 2em 0;
+	display: flex;
+}
+.contact-wrap .form-wrapper .info-wrap {
+	width: 50%;
+	font-size: 1.25em;
+}
+.contact-wrap .form-wrapper .info-wrap > * {
+	line-height: 1.5;
+}
+.contact-wrap .form-wrapper .info-wrap > * > i {
+	padding-right: 1em;
+}
+.contact-wrap .form-wrapper .form-wrap {
+	width: 50%;
+}
+.contact-wrap .form-wrapper .contact-form {
+	width: 100%;
+	display: inline-block;
+}
+.contact-wrap .form-wrapper .contact-form .up-input {
+	width: 100%;
+	display: flex;
+	margin-bottom: .5em;
+}
+.contact-wrap .form-wrapper .form-wrap .bt-send {
+	background-color: #121212;
+	color: #f9f9f9;
+	padding: .875em 1.25em;
+	margin-top: 1em;
+	float: right;
+}
+.contact-wrap .form-wrapper .form-wrap .bt-send:hover{
+	background-color: #ccc;
+	color: #121212;
+	transition: all .3s;
+}
+.contact-wrap .form-wrapper .contact-form input{
+	border: 1px solid #ccc;
+	padding: .75em 1em;
+}
+.contact-wrap .form-wrapper .contact-form .up-input input[name='name'] {
+	width: 49%;
+	margin-right: auto;
+}
+.contact-wrap .form-wrapper .contact-form .up-input input[name='email'] {
+	width: 49%;
+	margin-left: auto;
+}
+.contact-wrap .form-wrapper .contact-form input[name='msg'] {
+	width: 100%;
+}
+.map-wrapper img {
+	width: 100%;
 }
